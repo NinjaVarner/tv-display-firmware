@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "product": "Ninja TV Display",
+  "releases": [
+    {
+      "version": "0.1.5",
+      "hardware": "armv6",
+      "protocolMin": 1,
+      "protocolMax": 1,
+      "minAppCode": 14,
+      "size": 32903,
+      "sha256": "f107385c9fc05f2a518d130d79a544f31e9943a82c08cb6abc022eec97b087ee",
+      "url": "https://raw.githubusercontent.com/NinjaVarner/tv-display-firmware/v0.1.5/releases/ninja-display-0.1.5.zip",
+      "notes": "Automatic Bluetooth setup and phone-only pairing confirmation."
+    }
+  ]
+}
