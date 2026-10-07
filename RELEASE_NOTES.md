@@ -1,3 +1,15 @@
+# App 2.34 / TV firmware 0.1.7
+
+- Connect by IP uses the blue enabled button.
+- Timer ready-screen buttons have consistent spacing, including athlete/course and Start/connect controls.
+- Open network is labeled Open network (No Password).
+- Successful TV Wi-Fi passwords are remembered encrypted on this phone; selecting a saved network fills the password and connects automatically. Passwords rejected as incorrect are removed so they can be entered again.
+- TV scan refresh falls back to cached results when NetworkManager refuses a scan; background status queries no longer start competing scans. Duplicate SSIDs show their strongest signal.
+- A disconnected TV shows its own Bluetooth name/short ID above the timer, helping identify multiple displays. The connected athlete heading returns when the app sends its snapshot.
+- Buzzer firmware 1.4.1 improves gauge startup, avoids resetting MAX17048 during detection, retries unavailable readings, and reports sensor/startup errors in the app instead of only a question mark. Hardware battery acceptance remains pending.
+
+Validation: TV Python tests (49 passed, 1 skipped), Android unit tests and lint, five Android emulator tests covering password visibility, saved-network reuse, encrypted persistence, and timer spacing. Buzzer PlatformIO build and image metadata verification passed. TV 0.1.7 reuses the already-tested ARMv6 renderer; no renderer protocol change is needed for the identity heading.
+
 # TV firmware 0.1.6 / Android 2.11
 
 - Temporary TV debug panel shows Wi-Fi/IP, connection progress, and persistent error codes; `NINJA_DISPLAY_DEBUG=0` hides it.

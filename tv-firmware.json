@@ -23,6 +23,17 @@
       "sha256": "21d57051f707ee60a68f704b147044460fce2af7a1f7a09f097fb6149e4fe1c6",
       "url": "https://raw.githubusercontent.com/NinjaVarner/tv-display-firmware/v0.1.6/releases/ninja-display-0.1.6.zip",
       "notes": "Continuous Bluetooth setup, Wi-Fi recovery controls, connection diagnostics, and temporary on-screen debug progress and errors."
+    },
+    {
+      "version": "0.1.7",
+      "hardware": "armv6",
+      "protocolMin": 1,
+      "protocolMax": 1,
+      "minAppCode": 18,
+      "size": 36041,
+      "sha256": "3d99ee7a8fd8565c59fd9614d55454ef060cbdbcc5846f7ff4c8b6883b00524d",
+      "url": "https://raw.githubusercontent.com/NinjaVarner/tv-display-firmware/v0.1.7/releases/ninja-display-0.1.7.zip",
+      "notes": "Disconnected TV name/ID, reliable Wi-Fi scan refresh and cached scan fallback."
     }
   ]
 }
