@@ -67,6 +67,17 @@
       "sha256": "650169467327f81bb8fd87b6ed5b93e5d597471ddf6f925d53c8812bc412ae49",
       "url": "https://raw.githubusercontent.com/NinjaVarner/tv-display-firmware/v0.1.10/releases/ninja-display-0.1.10.zip",
       "notes": "Shows recent Wi-Fi networks before refreshing. App displays scan results as they arrive."
+    },
+    {
+      "version": "0.1.11",
+      "hardware": "armv6",
+      "protocolMin": 1,
+      "protocolMax": 1,
+      "minAppCode": 27,
+      "size": 37346,
+      "sha256": "58eb7c0d5db96864b935fe81fed3c2e6eefea3d0e794d71979bd10264b6e0a8f",
+      "url": "https://raw.githubusercontent.com/NinjaVarner/tv-display-firmware/v0.1.11/releases/ninja-display-0.1.11.zip",
+      "notes": "Fixes Linux helper execution and update retries. Includes faster Wi-Fi network loading."
     }
   ]
 }
