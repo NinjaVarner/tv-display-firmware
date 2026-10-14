@@ -89,6 +89,61 @@
       "sha256": "c091782d9a7d9c066fb6767d3fdd8647c142bfcd88af18eba96d9965b7fb0d00",
       "url": "https://raw.githubusercontent.com/NinjaVarner/tv-display-firmware/v0.1.12/releases/ninja-display-0.1.12.zip",
       "notes": "Selecting the active Wi-Fi network no longer disconnects and rejoins it."
+    },
+    {
+      "version": "0.1.13",
+      "hardware": "armv6",
+      "protocolMin": 1,
+      "protocolMax": 1,
+      "minAppCode": 41,
+      "size": 38013,
+      "sha256": "836c8b276c63a40bea40ec3125bfe6c177d3633cce96aa106a460f00d934409b",
+      "url": "https://raw.githubusercontent.com/NinjaVarner/tv-display-firmware/v0.1.13/releases/ninja-display-0.1.13.zip",
+      "notes": "Course time limit in the TV header and green/red obstacle-result background flashes. Requires Android 2.57."
+    },
+    {
+      "version": "0.1.14",
+      "hardware": "armv6",
+      "protocolMin": 1,
+      "protocolMax": 1,
+      "minAppCode": 42,
+      "size": 38497,
+      "sha256": "1ccdfb460668b499661043d945f6ec2ff260294e93937dce7092683c323d065f",
+      "url": "https://raw.githubusercontent.com/NinjaVarner/tv-display-firmware/v0.1.14/releases/ninja-display-0.1.14.zip",
+      "notes": "Recover completed TV updates from stale or missing status without leaving race starts locked."
+    },
+    {
+      "version": "0.1.15",
+      "hardware": "armv6",
+      "protocolMin": 1,
+      "protocolMax": 1,
+      "minAppCode": 44,
+      "size": 39042,
+      "sha256": "9da5fb67bf5e04e9ceec09a0cd7a724e65349c7356c2568c73730833871f59ee",
+      "url": "https://raw.githubusercontent.com/NinjaVarner/tv-display-firmware/v0.1.15/releases/ninja-display-0.1.15.zip",
+      "notes": "Red course time limit with rounded border and TV update status recovery."
+    },
+    {
+      "version": "0.1.16",
+      "hardware": "armv6",
+      "protocolMin": 1,
+      "protocolMax": 1,
+      "minAppCode": 45,
+      "size": 39605,
+      "sha256": "c05bd1f8fde537538575ae70d4c2368bd00645af9a71ccc17fde2ef2c0ab2415",
+      "url": "https://raw.githubusercontent.com/NinjaVarner/tv-display-firmware/v0.1.16/releases/ninja-display-0.1.16.zip",
+      "notes": "Fit the red time-limit border to the text with equal padding on all sides."
+    },
+    {
+      "version": "0.1.17",
+      "hardware": "armv6",
+      "protocolMin": 1,
+      "protocolMax": 1,
+      "minAppCode": 53,
+      "size": 40331,
+      "sha256": "7e607facdfebd7a6197ef4d5ee51b8ebcf96dd079aba384917f6c93154fb2f4d",
+      "url": "https://raw.githubusercontent.com/NinjaVarner/tv-display-firmware/v0.1.17/releases/ninja-display-0.1.17.zip",
+      "notes": "Create a password-protected NinjaDisplay network over Bluetooth for venues with isolated guest Wi-Fi. Existing installations need dnsmasq-base for hotspot DHCP."
     }
   ]
 }
